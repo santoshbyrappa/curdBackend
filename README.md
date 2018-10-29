@@ -9,5 +9,5 @@ Server side implementation using NodeJS version > 8
 ####Stack
 
  - Server - Express
- - DB - Mongo# angular6withLoginanddashboard
+ - DB - Mongo# employee
 # BasicNodeBackend
