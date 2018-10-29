@@ -1,11 +1,11 @@
 const cors = require('cors');
-const AuthRoutes = require('./Auth');
+const EmployeeRoutes = require('./Employee');
 
 module.exports = {
     init: (app) => {
         // CORS
         app.use(cors());
-        app.use(AuthRoutes);
+        app.use(EmployeeRoutes);
 
 
         // Catch all the mismatch routes
